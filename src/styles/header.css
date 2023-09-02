@@ -1,0 +1,47 @@
+header {
+	padding-block: 20px;
+
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(244, 231, 194);
+	margin-inline: 5%;
+}
+
+/* font and position of page selectors */
+header h1 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	display: inline-block;
+	font-size: 48px;
+}
+
+/* Sets the style of the header */
+header div {
+	padding-top: 25px;
+	margin-right: 20px;
+	float: right;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 20px;
+	display: inline-flexbox;
+	width: max-content;
+}
+
+/* sets the style of the header list */
+header div ul {
+	list-style-type: none;
+	align-items: center;
+	flex-wrap: wrap;
+	display: inline;
+	flex-direction: column;
+}
+
+/* sets the style of the header list items, positioning*/
+header div ul li {
+	display: inline-block;
+	margin-left: 25px;
+	scroll-behavior: smooth;
+}
+
+/* sets the of the universial text, white with no underline for links */
+a {
+	color: white;
+	text-decoration: none;
+}
